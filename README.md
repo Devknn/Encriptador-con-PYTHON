@@ -58,8 +58,8 @@ Por ejemplo:
 
 ![Captura de Pantalla](app/assets/encriptador.png)
 <p float="left">
-  <img src="app/assets/reponsive2.png" width="400" />
-  <img src="app/assets/reponsive.png" width="400" />
+  <img src="app/assets/reponsive2.png" width="400" height="400" />
+  <img src="app/assets/reponsive.png" width="400" height="400" />
 </p>
 
 
