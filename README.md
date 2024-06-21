@@ -57,8 +57,11 @@ Por ejemplo:
 ## Capturas de Pantalla
 
 ![Captura de Pantalla](app/assets/encriptador.png)
-![Captura de Pantalla](app/assets/reponsive2.png)
-![Captura de Pantalla](app/assets/reponsive.png)
+<p float="left">
+  <img src="https://github.com/tu-usuario/tu-repositorio/raw/main/app/assets/reponsive2.png" width="400" />
+  <img src="https://github.com/tu-usuario/tu-repositorio/raw/main/app/assets/reponsive.png" width="400" />
+</p>
+
 
 ## Tecnologías Utilizadas
 
