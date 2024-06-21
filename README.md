@@ -56,10 +56,9 @@ Por ejemplo:
 
 ## Capturas de Pantalla
 
-![Captura de Pantalla]
-(app/assets/encriptador.png)
-(app/assets/reponsive2.png)
-(app/assets/reponsive.png)
+![Captura de Pantalla](app/assets/encriptador.png)
+![Captura de Pantalla](app/assets/reponsive2.png)
+![Captura de Pantalla](app/assets/reponsive.png)
 
 ## Tecnologías Utilizadas
 
