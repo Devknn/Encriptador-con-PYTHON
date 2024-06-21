@@ -19,7 +19,7 @@ def index() -> rx.Component:
                         rx.text_area(
                             placeholder="Ingrese el texto aqui...",
                             height=EmSize.VERY_VERY_BIG.value,
-                            max_length=260,
+                            max_length=200,
                             value=State.textoIngresado,
                             on_change=State.set_textoIngresado
                             ),
@@ -117,7 +117,7 @@ def index() -> rx.Component:
                         ),
                     justify_self="center",
                     align_self="center",
-                    width="50%"
+                    width="60%"
                     ),
                 spacing=Size.BIG.value,
                 max_width=styles.MAX_WIDTH,
@@ -127,7 +127,10 @@ def index() -> rx.Component:
 
                 flex_direction=["column","column","row"]
                ), 
-            width="100%"
+            width="100%",
+            margin_top=EmSize.DEFAULT.value,
+            margin_bottom=EmSize.DEFAULT.value
+
             ),
             FloatButton(),
 
