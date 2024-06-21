@@ -56,7 +56,7 @@ Por ejemplo:
 
 ## Capturas de Pantalla
 
-![Captura de Pantalla](screenshot.png)
+![Captura de Pantalla](app/assets/reponsive.png)
 
 ## Tecnologías Utilizadas
 
