@@ -26,6 +26,9 @@ class Size(Enum):
     
 class Color(Enum):
     BARRA = "#1cb17f"
+    ADVERTENCIA = "orange"
+    CIRCULAR = "rgb(107,99,246)"
+    SIGNO = "#ffffff"
     
     
     

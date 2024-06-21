@@ -1,6 +1,6 @@
 import reflex as rx 
 import app.constants as const
-from app.styles import styles
+from app.styles import styles as styles
 from app.styles.styles import EmSize, Size
 from app.components.nav_bar import barraNav
 from app.components.float_button import FloatButton
@@ -29,7 +29,7 @@ def index() -> rx.Component:
                          rx.icon(   
                              "shield-alert",
                              align_self="center",
-                             color="orange",
+                             color=styles.Color.ADVERTENCIA.value,
                              size=18
                             ),
                          rx.text(
@@ -79,8 +79,10 @@ def index() -> rx.Component:
                         
                         rx.chakra.circular_progress(
                             rx.chakra.circular_progress_label(
-                                "∞", color="rgb(107,99,246)"
+                                "∞", color=styles.Color.SIGNO.value
                                  ),
+                            track_color=styles.Color.BARRA.value,
+                            color=styles.Color.SIGNO.value,
                         is_indeterminate=True,
                         display=["flex","flex","none"],
                         size=Size.BIG.value,

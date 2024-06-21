@@ -1,10 +1,10 @@
 import reflex as rx
-from app.styles.styles import EmSize, Color
-
+from app.styles.styles import EmSize, Color, Size
+import app.constants as const
 def barraNav() -> rx.Component:
     return rx.flex(
             rx.image(
-                src="favicon.ico",
+                src=const.LOGO,
                 width=EmSize.BIG.value,
                 margin_right=EmSize.LARGE_SMALL.value
                 ),
@@ -14,7 +14,7 @@ def barraNav() -> rx.Component:
             rx.vstack(
                 rx.text("Desafío del Encriptador:"),
                 rx.text("¡Protege tus Mensajes!"),
-                spacing="0",
+                spacing=Size.ZERO.value,
                 display=["flex","none"]
             ),
             background=Color.BARRA.value,
